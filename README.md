@@ -1,5 +1,5 @@
-// LinkedList-implementation-in-Java
-//Single LinkedList implementation
+/* LinkedList-implementation-in-Java*/
+/*Single LinkedList implementation*/
 
 class Node{
   int data;
@@ -7,7 +7,7 @@ class Node{
 }
  class LinkedList{
     Node head=null;
- //to insert a new value from the tail.
+ /*to insert a new value from the tail*/
     void insert(int data){
       Node node=new Node();
        node.data=data;
@@ -22,7 +22,7 @@ class Node{
        }n.next=node;
      }
  }
- //to print the data by traversing the LinkedList
+ /*to print the data by traversing the LinkedList*/
   void print(){
         Node temp=head;
        while(temp!=null){
@@ -44,4 +44,4 @@ class Node{
    }
  }
  
-//o/p;- 1 2 3 4 5  
+/*o/p;- 1 2 3 4 5 */ 
